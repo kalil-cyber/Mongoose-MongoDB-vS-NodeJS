@@ -1,0 +1,21 @@
+{
+  "name": "votre-projet",
+  "version": "1.0.0",
+  "description": "Une application Node.js avec Mongoose pour gérer une base de données MongoDB.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",              
+    "dev": "nodemon app.js",             
+    "test": "echo \"Aucun test défini\" && exit 1" 
+  },
+  "author": "Votre Nom",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",               
+    "express": "^4.17.1",                
+    "mongoose": "^6.0.0"                
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"                  
+  }
+}
